@@ -105,7 +105,7 @@
                                     <h3>Buah Batu</h3>
                                 </div>
                                 <div class="mt-4">
-                                    <a href="#" role="button" class="genric-btn success-border circle">Lihat Detail</a>
+                                    <a href="#" class="genric-btn success-border circle" data-toggle="modal" data-target="#exampleModal">Lihat Detail</a>
                                 </div>
                             </div>
                         </div>
@@ -118,7 +118,7 @@
                                     <h3>Grogol</h3>
                                 </div>
                                 <div class="mt-4">
-                                    <a href="#" role="button" class="genric-btn success-border circle">Lihat Detail</a>
+                                    <a href="#" class="genric-btn success-border circle" data-toggle="modal" data-target="#exampleModal">Lihat Detail</a>
                                 </div>
                             </div>
                         </div>
@@ -131,7 +131,7 @@
                                     <h3>Caringin</h3>
                                 </div>
                                 <div class="mt-4">
-                                    <a href="#" role="button" class="genric-btn success-border circle">Lihat Detail</a>
+                                    <a href="#" class="genric-btn success-border circle" data-toggle="modal" data-target="#exampleModal">Lihat Detail</a>
                                 </div>
                             </div>
                         </div>
@@ -144,7 +144,7 @@
                                     <h3>Tanjung Karang</h3>
                                 </div>
                                 <div class="mt-4">
-                                    <a href="#" role="button" class="genric-btn success-border circle">Lihat Detail</a>
+                                    <a href="#" class="genric-btn success-border circle" data-toggle="modal" data-target="#exampleModal">Lihat Detail</a>
                                 </div>
                             </div>
                         </div>
@@ -157,7 +157,7 @@
                                     <h3>Setu</h3>
                                 </div>
                                 <div class="mt-4">
-                                    <a href="#" role="button" class="genric-btn success-border circle">Lihat Detail</a>
+                                    <a href="#" class="genric-btn success-border circle" data-toggle="modal" data-target="#exampleModal">Lihat Detail</a>
                                 </div>
                             </div>
                         </div>
@@ -170,25 +170,11 @@
                                     <h3>Terminal Giwangan</h3>
                                 </div>
                                 <div class="mt-4">
-                                    <a href="#" class="genric-btn success-border circle">Lihat Detail</a>
+                                    <a href="#" class="genric-btn success-border circle" data-toggle="modal" data-target="#exampleModal">Lihat Detail</a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <!-- <div class="col-lg-4 col-md-4 col-sm-6">
-                        <div class="single-cat mb-30">
-                            <div class="cat-img">
-                                <img src="assets/img/gallery/xservices2.jpg.pagespeed.ic.T_OY2-P6jf.webp" alt="" data-pagespeed-url-hash="2073349841" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
-                            </div>
-                            <div class="cat-cap">
-                                <div class="pricing d-flex justify-content-between">
-                                    <h3><a href="events_details.html">Finlande</a></h3>
-                                    <span class="price">$1200</span>
-                                </div>
-                                <p><a href="#">12 Jan - 18 Jan</a>5 Days</p>
-                            </div>
-                        </div>
-                    </div> -->
                 </div>
                 <!-- Pagination -->
                 <div class="row">
@@ -276,7 +262,7 @@
                                 <div class="footer-copy-right text-center">
                                     <p>Copyright &copy;
                                         <script>
-                                        document.write(new Date().getFullYear());
+                                            document.write(new Date().getFullYear());
                                         </script> All rights reserved | Made with <i class="fa fa-heart color-danger" aria-hidden="true"></i> by <a href="#" target="_blank" rel="nofollow noopener">Haidar</a>
                                     </p>
                                 </div>
@@ -290,6 +276,33 @@
     <!-- Footer -->
     <div id="back-top">
         <a title="Go to Top" href="#"> <i class="fas fa-level-up-alt"></i></a>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Detail Outlet</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <h3 class="font-weight-light">Jogja</h3>
+                    <h3 class="mb-3">Terminal Giwangan</h3>
+                    <p class="mb-1">Buka: <strong>08:00</strong></p>
+                    <p>Tutup: <strong>20:00</strong></p>
+                    <p class="mt-3 mb-1">Alamat</p>
+                    <p><strong>Jalan Bunga Melati No. 92, Yogyakarta</strong></p>
+                    <p class="mt-3 mb-1">Kode Pos</p>
+                    <p><strong>12123</strong></p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="genric-btn primary">Lihat Lokasi</button>
+                    <button type="button" class="genric-btn danger" data-dismiss="modal">Tutup</button>
+                </div>
+            </div>
+        </div>
     </div>
     <!-- Main -->
     <script src="assets/js/vendor/modernizr-3.5.0.min.js"></script>
